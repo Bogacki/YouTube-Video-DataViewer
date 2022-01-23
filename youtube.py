@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from pytube import YouTube
 
-chrome_driver_path = "C:\Development\chromedriver"
+chrome_driver_path = ".\chromedriver"
 
 class yt:
     def __init__(self):
