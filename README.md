@@ -1,6 +1,6 @@
 ﻿# YouTube-Video-DataViewer
 
-Aby oprogramowanie działało należy pobrać chrome_driver, zawarłem go w repozytorium, umieścić w dowolnym miejscu na dysku, a następnie ustawić do niego ścieżkę w pliku youtube.py w zmiennej chrome_driver_path
+Aby oprogramowanie działało należy pobrać chrome_driver, zawarłem go w repozytorium, standardowo chrome driver znajduje się w folderze projektu oraz ścieżka jest ustawiona w ten sposób aby od razu go wykrywała, jednak można go również umieścić w dowolnym innym miejscu na dysku, jednak wtedy trzeba podmienić ścieżkę w zmiennej chrome_driver_path w pliku youtube.py
 
 Oprogramowanie korzysta z Selenium, które otwiera przeglądarke i wykonuje w niej akcje na podstawie działań w kodzie. Z początku projekt miał być ambitniejszy dlatego użyłem Selenium a nie na przykład BeautifulSoup.
 
